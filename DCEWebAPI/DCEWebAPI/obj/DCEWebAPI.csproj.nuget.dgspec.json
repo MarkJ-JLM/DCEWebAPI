@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Personal Project\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI.csproj": {}
+    "D:\\Personal Project\\New folder\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Personal Project\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI.csproj": {
+    "D:\\Personal Project\\New folder\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Personal Project\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI.csproj",
+        "projectUniqueName": "D:\\Personal Project\\New folder\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI.csproj",
         "projectName": "DCEWebAPI",
-        "projectPath": "D:\\Personal Project\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI.csproj",
+        "projectPath": "D:\\Personal Project\\New folder\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI.csproj",
         "packagesPath": "C:\\Users\\Ranishka\\.nuget\\packages\\",
-        "outputPath": "D:\\Personal Project\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\obj\\",
+        "outputPath": "D:\\Personal Project\\New folder\\DCEWebAPI\\DCEWebAPI\\DCEWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ranishka\\AppData\\Roaming\\NuGet\\NuGet.Config",

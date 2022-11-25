@@ -53,7 +53,7 @@ namespace DCEWebAPI.Repository
         public List<ActiveOrdersModel> GetAllActiveOrder(string connString)
         {
             return SqlHelper.ExtecuteProcedureReturnData<List<ActiveOrdersModel>>(connString,
-                "sp_GetCustomer", r => r.TranslateAsActiveOrderList());
+                "sp_ActiveOrdersbyCustomer", r => r.TranslateAsActiveOrderList());
         }
     }
 }
