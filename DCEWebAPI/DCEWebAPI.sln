@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCEWebAPI", "DCEWebAPI\DCEWebAPI.csproj", "{25ABB506-ABF6-4C6D-BD2F-043FB265DD63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25ABB506-ABF6-4C6D-BD2F-043FB265DD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25ABB506-ABF6-4C6D-BD2F-043FB265DD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25ABB506-ABF6-4C6D-BD2F-043FB265DD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25ABB506-ABF6-4C6D-BD2F-043FB265DD63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B27D98A9-033E-42CF-BD2F-50D2750D9649}
+	EndGlobalSection
+EndGlobal

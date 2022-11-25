@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "8bd562e2-1c9b-4c5f-ae07-c8cb56ff2406",
+		"name": "DCEWebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllCustomer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:20756/api/Customer/GetAllCustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "20756",
+					"path": [
+						"api",
+						"Customer",
+						"GetAllCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertUpdateCustomer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"userId\": \"\",\r\n        \"username\": \"Mark\",\r\n        \"email\": \"ran@gm.lk\",\r\n        \"firstName\": \"Marka\",\r\n        \"lastName\": \"ja\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:20756/api/Customer/InsertUpdateCustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "20756",
+					"path": [
+						"api",
+						"Customer",
+						"InsertUpdateCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCustomer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:20756/api/Customer/DeleteCustomer?Userid=57EBD1CF-AF35-45F1-B8FD-5CC00A625244",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "20756",
+					"path": [
+						"api",
+						"Customer",
+						"DeleteCustomer"
+					],
+					"query": [
+						{
+							"key": "Userid",
+							"value": "57EBD1CF-AF35-45F1-B8FD-5CC00A625244"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
